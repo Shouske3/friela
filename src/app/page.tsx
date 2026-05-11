@@ -180,7 +180,7 @@ export default function LandingPage() {
                   </li>
                 ))}
               </ul>
-              <a href="https://friela.lemonsqueezy.com/buy/basic" className="block w-full py-3 border border-gray-500 text-white font-semibold rounded-xl hover:border-white transition-colors">
+              <a href="https://friela.lemonsqueezy.com/checkout/buy/b41006a4-8f2a-4567-acb4-0c100d27c84b" className="block w-full py-3 border border-gray-500 text-white font-semibold rounded-xl hover:border-white transition-colors">
                 購入する
               </a>
             </div>
@@ -196,7 +196,7 @@ export default function LandingPage() {
                   </li>
                 ))}
               </ul>
-              <a href="https://friela.lemonsqueezy.com/buy/pro" className="block w-full py-3 bg-yellow-400 text-gray-900 font-black rounded-xl hover:bg-yellow-300 transition-colors">
+              <a href="https://friela.lemonsqueezy.com/checkout/buy/e441f7e7-b3ed-476b-8613-ae0505b194ce" className="block w-full py-3 bg-yellow-400 text-gray-900 font-black rounded-xl hover:bg-yellow-300 transition-colors">
                 購入する
               </a>
             </div>
