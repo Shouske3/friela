@@ -7,11 +7,11 @@ export const metadata: Metadata = {
 
 // ⚠️ 以下の【要変更】箇所を実際の情報に書き換えてください
 const SELLER_INFO = {
-  name: "【要変更：氏名または屋号】",           // 例: 山田太郎 / やまだデザイン事務所
-  address: "【要変更：住所】",                  // 例: 東京都新宿区〇〇1-2-3
-  phone: "【要変更：電話番号】",                 // 例: 090-1234-5678（※公開したくない場合は「請求があれば速やかに開示」でも可）
-  email: "support@friela.app",                 // ← 実際のサポートメールに変更
-  url: "https://friela.vercel.app",
+  name: "茨木章介",
+  address: "請求があれば速やかに開示します",
+  phone: "請求があれば速やかに開示します",
+  email: "support@friela.app",
+  url: "https://friela-shouske.vercel.app",
 };
 
 export default function LegalPage() {
