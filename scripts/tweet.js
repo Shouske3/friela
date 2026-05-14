@@ -60,6 +60,14 @@ async function generateTweet(theme) {
 }
 
 async function main() {
+  // 認証情報の確認（デバッグ用）
+  console.log("=== 認証情報チェック ===");
+  console.log("X_API_KEY 長さ:", process.env.X_API_KEY?.length, "先頭4文字:", process.env.X_API_KEY?.slice(0, 4));
+  console.log("X_API_SECRET 長さ:", process.env.X_API_SECRET?.length);
+  console.log("X_ACCESS_TOKEN 長さ:", process.env.X_ACCESS_TOKEN?.length, "先頭4文字:", process.env.X_ACCESS_TOKEN?.slice(0, 4));
+  console.log("X_ACCESS_TOKEN_SECRET 長さ:", process.env.X_ACCESS_TOKEN_SECRET?.length);
+  console.log("====================");
+
   // 今日の曜日でテーマを選択
   const dayOfWeek = new Date().getDay();
   const theme = themes[dayOfWeek % themes.length];
