@@ -1,10 +1,7 @@
 name: FRIELA X自動投稿
 
 on:
-  schedule:
-    # 月・水・金の朝9時（JST）= UTC 0時
-    - cron: '0 0 * * 1,3,5'
-  workflow_dispatch: # 手動実行も可能
+  workflow_dispatch: # 手動実行のみ（スケジュール停止中）
 
 jobs:
   tweet:
